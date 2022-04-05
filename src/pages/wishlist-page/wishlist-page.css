@@ -1,0 +1,23 @@
+
+
+
+.wishlist-products-listing-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.wishlist-button {
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.cross-badge {
+    cursor: pointer;
+}
+

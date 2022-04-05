@@ -1,0 +1,27 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 3rem auto;
+    padding: 2.5rem 3.5rem;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid var(--secoundary);
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 3px var(--secoundary);
+}
+
+.input-form {
+    margin: 0;
+    width: fit-content;
+}
+
+.primary-button {
+    margin: 1rem;
+}
+
+.login-tag-line {
+    font-size: 1rem;
+    font-weight: 600;
+}

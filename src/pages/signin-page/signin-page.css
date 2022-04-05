@@ -1,0 +1,38 @@
+
+
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin: 2rem auto;
+    padding: 2.5rem 4rem;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid var(--secoundary);
+    border-radius: 0.3rem;
+    box-shadow: 1px 1px 3px var(--secoundary);
+}
+
+.input-form {
+    margin: 0;
+    width: fit-content;
+}
+
+.input-field {
+    width: 16rem;
+}
+
+.ecommerce-sub-heading {
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.primary-button {
+    margin: 1rem;
+}
+
+.signin-tag-line {
+    font-size: 1rem;
+    font-weight: 600;
+}

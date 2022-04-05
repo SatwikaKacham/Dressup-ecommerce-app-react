@@ -6,6 +6,43 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --secoundary: #b3b3b4;
+  --secoundary-black: #272727;
+  --primary: #ff3e6c;
+  --gray-text: #535665;
+  --success: green;
+  --warning: #f9a61a;
+  --danger: #f34648;
+  --success-light: rgb(156, 216, 156);
+  --warning-light: #f8e0b7;
+  --danger-light: #f7b2b3;
+  --secoundary-gray: #4e4f53;
+  --light-gray: #f0f0f0;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.ecommerce-sub-heading {
+  font-size: 1.5rem;
+  margin: 1rem;
+  margin-top: 0;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -1,0 +1,76 @@
+.foot {
+    width: 100%;
+    background-color: var(--secoundary-black);
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color:white;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer-sideheading{
+    font-weight: bold;
+    color:var(--primary);
+    font-size: large;
+}
+.footer-sub-catogories{
+    list-style-type: none;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:0.3rem;
+   margin: 0.5rem 0;
+}
+.social-links{
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.footer-sub-item{
+    color: var(--secoundary);
+    text-decoration: none; 
+}
+
+
+.footer-catogories{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:0.5rem;
+}
+
+.footer-gmail-phone {
+    color: var(--primary);
+    font-size: 0px;
+}
+.logo{
+    width:5rem;
+    height:5rem;
+}
+
+.social-links i{
+    width:fit-content;
+    height: fit-content;
+    padding:0 0.2rem;
+    }
+
+
+
+@media screen and (max-width: 600px) {
+    .footer-gmail-laptop {
+        display: none;
+        padding: 0px;
+    }
+    .footer-gmail-phone {
+        font-size: 25px;
+        color: var(--secoundary);
+        padding: 2px;
+    }
+    .foot{
+        flex-direction: column;
+        gap:2rem;
+        padding-left:2rem;
+    }
+}

@@ -1,0 +1,43 @@
+
+.card-container-horizontal {
+    width: 23rem;
+}
+.card-quantity {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.card-quantity-label {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-weight: bold;
+    background-color: var(--light-gray);
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.card-quantity-label select {
+    border: none;
+    width: 3rem;
+    font-weight: bold;
+    outline: none;
+    text-align: center;
+    background-color: var(--light-gray);
+}
+
+.quantity-dropdown-list:focus,
+.size-dropdown-list:focus {
+    color: var(--secoundary-black);
+    width: 3rem;
+    background-color: var(--secoundary);
+}
+
+.quantity-dropdown-list option:hover {
+    background-color: pink;
+}
+
+.card-image-horizontal {
+    border-bottom-left-radius: 0.3rem;
+}
